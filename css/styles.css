@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%; /* Reset para REMS - 62.5% -> 16px */
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background-color: #007ACC;
+}
+
+/* Globales */
+img {
+    max-width: 100%; /*imagenes responsive*/
+    display: block;
+
+}
+.contenedor {
+    max-width: 120rem;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+
+/* Header */
+.barra-header {
+    background-color: black;
+}
+.contenido-barra {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido-barra h1{
+    flex-basis: 50%;
+    line-height: 1.5;
+}
+.logo {
+    flex-basis: 12rem;
+}
+
+/* contadora de billetes */
+.total {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 4rem;
+    align-items: center;
+}
+.total h2 {
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 0 3rem;s
+}
+
+.contenedor-billete {
+    background-color: #005188;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.billete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagen-billete {
+    padding: 2rem;
+}
+
+/* Botones */
+.btn:hover {
+    cursor: pointer;
+}
